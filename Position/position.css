@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+align-items: center;
+position: relative;
+}
+.parentcontainer{
+height: 300px;
+width: 300px;
+background-color: red;
+position: absolute;
+right: 8%;
+}
+.childcontainer{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
